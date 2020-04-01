@@ -17,14 +17,14 @@ module.exports = {
     typographyCSSFormat
   },
   
-  source: ['tokens/**/*.json'],
+  source: ['./v1/tokens/**/*.json'],
   
   platforms: {
     css: {
       transformGroup: 'web',
       buildPath: 'build/css/',
       files: [{
-        destination: 'typography.css',
+        destination: 'typography-v1.css',
         format: 'typographyCSSFormat'
       }]
     }

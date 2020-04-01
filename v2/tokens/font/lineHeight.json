@@ -1,0 +1,12 @@
+{
+  "font": {
+      "line-height": {
+          "xsmall": {
+              "value": "1.25"
+          },
+          "small": {
+            "value": "1.5"
+          }
+      }
+  }
+}

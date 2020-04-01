@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build --config ./v1/config.js",
+    "buildv2": "style-dictionary build --config ./v2/config.js"
   },
   "devDependencies": {
     "style-dictionary": "^2.8.3"

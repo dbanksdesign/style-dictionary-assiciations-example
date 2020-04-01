@@ -1,0 +1,18 @@
+{
+  "font": {
+      "size": {
+          "xsmall": {
+              "value": "0.75",
+              "associations": {
+                "line-height": "{font.line-height.xsmall.value}"
+              }
+          },
+          "small": {
+            "value": "1",
+            "associations": {
+                "line-height": "{font.line-height.small.value}"
+            }
+          }
+      }
+  }
+}
